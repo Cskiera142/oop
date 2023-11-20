@@ -1,0 +1,32 @@
+Create a Class:
+Define a Person class with properties name and age. Add a method greet() that logs a greeting with the person's name.
+
+Inheritance:
+Extend the Person class to create a Student subclass. Add a property grade to the Student class. Override the greet() method to include the grade in the greeting.
+
+Encapsulation:
+Create a BankAccount class with private properties balance and accountHolder. Implement methods to deposit, withdraw, and check the balance. Ensure that the balance is not directly accessible from outside the class.
+
+Polymorphism:
+Define a Animal class with a method makeSound(). Create subclasses for different animals (e.g., Dog, Cat) that override the makeSound() method. Demonstrate polymorphism by calling the makeSound() method on instances of different animal classes.
+
+Composition:
+Create a Library class that contains an array of Book objects. Each Book should have properties like title, author, and publishedYear. Implement methods in the Library class to add a book, remove a book, and display all books.
+
+Static Method:
+Add a static method to the Person class that calculates the average age of an array of Person objects.
+
+Singleton Pattern:
+Implement a singleton pattern for a Logger class. This logger should have a method to log messages, and only one instance of the logger should exist.
+
+Create an abstraction for an online shopping cart system. Implement the following functionalities:
+
+Add Product: Implement a method to add a product to the shopping cart. Each product should have a name, price, and quantity.
+
+Remove Product: Implement a method to remove a product from the shopping cart.
+
+Calculate Total Price: Implement a method to calculate the total price of all products in the cart.
+
+View Cart: Implement a method to display the details of all products in the cart, including their names, prices, quantities, and the total price.
+
+Ensure that the implementation hides the internal details of how the cart works, allowing users to interact with the cart at a higher level of abstraction.
